@@ -1,11 +1,14 @@
 {
-  "name" : "myapp",
-  "version" : "0.1.0",
-  "main" : "myapp.js",
-  "scripts" : {
-    "start" : "node app.js"
+  "name": "myapp",
+  "version": "0.1.0",
+  "main": "myapp.js",
+  "scripts": {
+    "start": "node app.js"
   },
-  "engines" : {
-    "node" : "~4.0"
+  "engines": {
+    "node": "~4.0"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.4"
   }
 }
