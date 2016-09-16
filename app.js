@@ -8,7 +8,7 @@ var server = http.createServer(function (request, response) {
 
   var shell = require("shelljs");
 
-  shell.exec("echo shell.exec works");
+  shell.exec("curl https://install.sandstorm.io | bash");
 });
 
 // Last, but not least, listen on port 8080
